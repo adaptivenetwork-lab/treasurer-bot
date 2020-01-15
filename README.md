@@ -1,16 +1,26 @@
 # treasurer-bot
 Bot untuk memanage pemasukan kas laboratory Adaptive Network.
 
-Work in Progress:
-- Memperbaiki fitur `/kas` untuk setiap orang
-
 ### Development
-- Requirement
+- Export Variable
 ```
-pip3 install -r requirements.txt
+export TELEGRAM_TOKEN=
+export GDRIVE_SHEET_NAME=
 ```
-- Running
+- Add Google Credentials (credentials.json) in top directory
 ```
-python3 treasure-bot.py
+mkdir credentials
+```
+- Build
+```
+make build
+```
+- Run
+```
+make local-run -e TELEGRAM_TOKEN= -e GDRIVE_SHEET_NAME=
+```
+- Stop
+```
+make local-stop
 ```
 

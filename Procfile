@@ -1,1 +1,0 @@
-bot: python3 treasurer-bot.py

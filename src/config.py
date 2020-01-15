@@ -1,0 +1,4 @@
+import os
+
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+GDRIVE_SHEET_NAME = os.getenv("GDRIVE_SHEET_NAME")
